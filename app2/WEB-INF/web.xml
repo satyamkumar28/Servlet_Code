@@ -1,0 +1,11 @@
+<web-app>
+	<servlet>
+		<servlet-name>abc</servlet-name>
+		<servlet-class>com.lara.HelloAgainServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>abc</servlet-name>
+		<url-pattern>/HelloAgainServlet</url-pattern>
+	</servlet-mapping>
+
+</web-app>
